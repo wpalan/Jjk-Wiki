@@ -1,0 +1,34 @@
+body 
+    {
+    background: linear-gradient(#0c1852,#450409);
+    }
+
+
+p  
+    {      
+    text-align: center; 
+    font-family: 'Alegreya Sans', sans-serif;
+    color: aliceblue;
+    }
+
+h1 
+    {
+    color:red;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    }
+
+.boton
+    {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    text-decoration: none;
+    width: 150px;
+    }
+       
+.botoncont
+    {
+    display: flex;
+    margin-bottom: -25px;  
+    }
