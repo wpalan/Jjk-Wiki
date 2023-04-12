@@ -1,0 +1,74 @@
+.titulo  
+    {
+    text-align: center; 
+    text-decoration: underline;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: aliceblue;
+    }
+
+.sinopsis
+    {
+    font-family: 'Alegreya Sans', sans-serif;
+    color:aliceblue;
+    font-size: 30px;
+    text-align: center;
+    }
+
+.contp
+    {
+    display: flex;
+    justify-content: center;
+    }
+
+.contjjk 
+    {
+    display: flex;
+    width: 650px;
+    border: solid 8px red; 
+    overflow: hidden;
+    }
+
+.jjk 
+    {
+    display: flex;
+    animation: carousel 15s infinite;
+    }
+
+@keyframes carousel 
+    {
+    0% {margin-left: 0%;}
+    10%{margin-left: 0%;}
+    20%{margin-left: -100%;}
+    30%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    75%{margin-left: -200%;}        
+    100%{margin-left: 0%;}
+    }
+
+.links
+    {
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+.imglink
+    {
+    width:250px;
+    height:150px;
+    }
+
+.txtlink
+    {
+    text-align: center;
+    background-color: #b3160a;
+    border-style: groove;
+    color: aliceblue;    
+    }
+
+
+.imagen 
+    {
+    width: 650px;
+    height: 450px; 
+    }
